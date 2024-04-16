@@ -56,14 +56,15 @@ menu-item {
 .menu-link:hover {
   color: #404bbf;
 }
-
+adress-list,
 adress-item {
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.adress-item:hover {
+.adress-item:hover,
+.adress-item:focus {
   color: #404bbf;
 }
 /* ======== HERO  STYLES ======== */
@@ -93,33 +94,61 @@ adress-item {
 top-header {
 }
 /* ======== BENEFITS STYLES ======== */
+
 .benefits-title {
 }
 .benefits-list {
 }
 .benefits-list-item {
 }
+.team-list-item,
 .benefits-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
+.team-text,
 .benefits-text {
+  font-size: 16px;
 }
 /* ======== TEAM STYLES ======== */
+.team-part {
+  background-color: #f4f4fd;
+}
 .team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .team-list {
+  background-color: #ffffff;
 }
-.team-list-item {
-}
-.team-image {
+.team-list-item .team-image {
 }
 /* ======== PORTFOLIO STYLES ======== */
 .portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .portfolio-title-list {
 }
 .portfolio-list-item {
 }
 .portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .portfolio-text {
 }
@@ -134,14 +163,17 @@ top-header {
   color: #f4f4fd;
 }
 .logo-footer {
+  line-height: 1.17;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 .footer-style {
   background: #2e2f42;
+}
+.logo-part-footer {
+  color: #f4f4fd;
 }
