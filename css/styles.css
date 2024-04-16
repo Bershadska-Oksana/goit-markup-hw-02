@@ -56,7 +56,9 @@ menu-item {
 .menu-link:hover {
   color: #404bbf;
 }
-.adress-list,
+.adress-list {
+  font-style: normal;
+}
 .adress-item {
   font-weight: 400;
   font-style: normal;
@@ -101,6 +103,7 @@ top-header {
 }
 .benefits-list-item {
 }
+
 .team-name,
 .benefits-name {
   font-weight: 500;
@@ -133,6 +136,7 @@ top-header {
 }
 
 .team-list-item {
+  background-color: #ffffff;
 }
 .team-image {
 }
