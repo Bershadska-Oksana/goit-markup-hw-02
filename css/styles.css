@@ -56,8 +56,8 @@ menu-item {
 .menu-link:hover {
   color: #404bbf;
 }
-adress-list,
-adress-item {
+.adress-list,
+.adress-item {
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
@@ -101,7 +101,7 @@ top-header {
 }
 .benefits-list-item {
 }
-.team-list-item,
+.team-name,
 .benefits-name {
   font-weight: 500;
   font-size: 20px;
@@ -112,6 +112,9 @@ top-header {
 .team-text,
 .benefits-text {
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 /* ======== TEAM STYLES ======== */
 .team-part {
@@ -128,7 +131,10 @@ top-header {
 .team-list {
   background-color: #ffffff;
 }
-.team-list-item .team-image {
+
+.team-list-item {
+}
+.team-image {
 }
 /* ======== PORTFOLIO STYLES ======== */
 .portfolio-title {
